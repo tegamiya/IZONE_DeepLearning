@@ -13,7 +13,7 @@ split.py　→　画像データを読み込んでテスト用と検証用配列
 data_augmented.py　→　画像データを反転＆回転させてデータ水増し  
 learn_aug.py　→　DeepLearningで学習  
 predict.py　→　データを元にWEBアプリ化　ネット上で画像判別できるようにする  
-
+index.html → predict.pyから呼ばれて表示されるhtml
 
 ### 参考資料
 https://www.udemy.com/tensorflow-advanced/learn/v4/overview
