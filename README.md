@@ -7,6 +7,7 @@ https://www.universal-music.co.jp/izone/
 
 ## 各ファイル概要
 
+img_collector.py　→　画像スクレイピング  
 detection_save.py　→　画像フォルダから顔だけ切り出して保存  
 split.py　→　画像データを読み込んでテスト用と検証用配列データにする  
 data_augmented.py　→　画像データを反転＆回転させてデータ水増し  
