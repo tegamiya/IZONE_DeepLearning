@@ -14,6 +14,6 @@ learn_aug.py　→　DeepLearningで学習
 predict.py　→　データを元にWEBアプリ化　ネット上で画像判別できるようにする  
 
 
-### 参考教材
+### 参考資料
 https://www.udemy.com/tensorflow-advanced/learn/v4/overview
 
