@@ -20,6 +20,7 @@ for index,classlabel in enumerate(classes):
         data=np.asarray(image)
         X.append(data)
         Y.append(index)
+
 X=np.array(X)
 Y=np.array(Y)
 X_train,X_test,y_train,y_test=model_selection.train_test_split(X,Y)
