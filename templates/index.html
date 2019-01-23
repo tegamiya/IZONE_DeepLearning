@@ -14,28 +14,28 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-  <h1>画像をアップロードしてください</h1>
-  <h3>IZ*ONEの矢吹奈子、宮脇咲良、本田仁美の3人の画像のみ判別できます</h3>
-  <div class="input_group">
-  <form method="post" action="/send" enctype="multipart/form-data">
-    <input type="file" id="img_file" name="img_file">
-</div>
-    <!-- input type="submit" value="Send" -->
-    <button type="submit" class="btn btn-primary">Send</button>
-  </form>
-    </div>
+      <h1>画像をアップロードしてください</h1>
+      <h3>IZ*ONEの矢吹奈子、宮脇咲良、本田仁美の3人の画像のみ判別できます</h3>
+        <div class="input_group">
+          <form method="post" action="/send" enctype="multipart/form-data">
+          <input type="file" id="img_file" name="img_file">
+        </div>
+        <!-- input type="submit" value="Send" -->
+        <button type="submit" class="btn btn-primary">Send</button>
+          </form>
+        </div>
       </div>
     <div class="row">
       <div class="col-md-12">
-  <p>
-      <p><img src="{{ add_img_url }}"></p>
-      <p>矢吹奈子の可能性：{{ percentage }}%</p>
-      <p>宮脇咲良の可能性：{{ percentage_1 }}%</p>
-      <p>本田仁美の可能性：{{ percentage_2 }}%</p>
-    <div class="col-md-12 d-md-none">
-</p>
-</div>
-</div>
-</div>
+      <p>
+        <p><img src="{{ add_img_url }}"></p>
+        <p>矢吹奈子の可能性：{{ percentage }}%</p>
+        <p>宮脇咲良の可能性：{{ percentage_1 }}%</p>
+        <p>本田仁美の可能性：{{ percentage_2 }}%</p>
+      <div class="col-md-12 d-md-none">
+      </p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
