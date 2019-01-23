@@ -88,7 +88,7 @@ def send():
     return render_template("index.html")
 
 
-
+#/uploads/<filename>でディレクトリ内の静的ファイルにアクセスできるようにする
 @app.route('/uploads/<filename>')
 def uploaded_file(filename):
     return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
