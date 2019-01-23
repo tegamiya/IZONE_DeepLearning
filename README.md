@@ -13,3 +13,7 @@ data_augmented.py　→　画像データを反転＆回転させてデータ水
 learn_aug.py　→　DeepLearningで学習  
 predict.py　→　データを元にWEBアプリ化　ネット上で画像判別できるようにする  
 
+
+### 参考教材
+https://www.udemy.com/tensorflow-advanced/learn/v4/overview
+
