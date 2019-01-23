@@ -23,7 +23,7 @@ app.config["UPLOAD_FOLDER"]=UPLOAD_FOLDER
 IMAGE_WIDTH=640
 
 
-# ---------
+#Graphはスレッド間で共有する必要があるためtf.get_default_graph()を使う
 import tensorflow as tf
 from keras.models import load_model
 
