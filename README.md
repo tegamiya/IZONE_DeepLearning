@@ -1,7 +1,7 @@
 # IZONE_DeepLearning
 
 ## 概要
-IZ*ONEというアイドルグループの日本人3名の顔認識をしようとして作られたもの  
+IZ*ONEという日韓合同アイドルグループの日本人3名の顔認識をしようとして作られたもの  
 https://www.universal-music.co.jp/izone/  
 認識できるのは、宮脇咲良、矢吹奈子、本田仁美
 
